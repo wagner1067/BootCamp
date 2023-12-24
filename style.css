@@ -1,52 +1,53 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
-
+/*importação de fonte */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/*menu de navegação */
 #principal {
-    width: 100%;
-    height: 100px;
-    background: #303030;
-    border-radius: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #bababa;
+  width: 100%;
+  height: 100px;
+  background: #303030;
+  border-radius: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bababa;
 }
 
 #menu {
-    display: flex;
-    width: 45%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 5%;
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
 }
 
 #principal div a {
-    font-family: Inter;
-    font-size: 25px;
-    font-weight: 600;
-    color: #FFF;
-    text-decoration: none;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
 }
 
 #principal div a:hover {
-    color: #cccccc;
+  color: #cccccc;
 }
 
 #principal button {
-    margin-right: 5%;
-    width: 80px;
-    height: 40px;
-    background: #0C70F2;
-    border: 0px;
-    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
+  margin-right: 5%;
+  width: 80px;
+  height: 40px;
+  background: #0c70f2;
+  border: 0px;
+  box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
