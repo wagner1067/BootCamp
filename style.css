@@ -1,6 +1,14 @@
 /*importação de fonte */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
 
+:root {
+  --azul-dnc: #0c70f2;
+  --preto-dnc: #303030;
+  --cinza-hover: #c9c9c9;
+
+  --fonte-padrao: "Inter";
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -56,5 +64,103 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+/* Seção principal do site */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header {
+  color: white;
+  font-family: var(--fonte-padrao);
+}
+
+header h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+header .invert {
+  background-color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/*formulário */
+
+form {
+  color: white;
+  font-family: var(--fonte-padrao);
+  font-size: 30px;
+  font-weight: 600;
+  width: 600px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form input {
+  border-radius: 10px;
+  border: 0px;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+form label {
+  margin: 10px 0px 10px 0px;
+}
+
+form input::placeholder {
+  color: rgba(57, 57, 57, 0.5);
+}
+
+.checkbox-itens label {
+  font-size: 25px;
+}
+
+.checkbox-itens {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.7);
+}
+
+#cadastar {
+  background: rgba(12, 112, 242, 0.9);
+  width: 100%;
+  height: 56px;
+  font-size: 32px;
+  font-weight: 600px;
+  color: white;
+  box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 100px;
   cursor: pointer;
 }
