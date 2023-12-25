@@ -230,29 +230,29 @@ footer .endereco {
   text-align: center;
 }
 
-footer .linha2{
-  height:35px;
-  display:flex;
+footer .linha2 {
+  height: 35px;
+  display: flex;
   justify-content: center;
-  margin:0px;
-  padding:10px
+  margin: 0px;
+  padding: 10px;
 }
 
-footer .linha2 a{
+footer .linha2 a {
   font-family: var(--fonte-padrao);
   font-size: 18px;
   font-weight: 600;
-  color:white;
+  color: white;
   text-decoration: none;
-  padding:5px;            
+  padding: 5px;
 }
 
-footer .linha2 a:first-child{
+footer .linha2 a:first-child {
   border-right: 3px solid white;
 }
 
-footer .linha2 a:hover{
-  color:var(--cinza-hover);
+footer .linha2 a:hover {
+  color: var(--cinza-hover);
 }
 
 @media only screen and (max-width: 600px) {
@@ -280,7 +280,7 @@ footer .linha2 a:hover{
 
   /*seção */
 
-  section h1{
+  section h1 {
     font-size: 38px;
   }
 
@@ -296,18 +296,17 @@ footer .linha2 a:hover{
   }
 
   .checkbox-itens label {
-font-size: 17px;
+    font-size: 17px;
   }
 
   /*Footer*/
 
-footer .linha1 {
-  flex-direction: column;
-}
+  footer .linha1 {
+    flex-direction: column;
+  }
 
-footer .endereco {
-  width: 95%;
-  margin-bottom: 20px;
-}
-
+  footer .endereco {
+    width: 95%;
+    margin-bottom: 20px;
+  }
 }
